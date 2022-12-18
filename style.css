@@ -133,7 +133,6 @@ body {
     }
 
     .card:first-child {
-        display: block;
         background-color: hsl(263, 55%, 52%);
         background-image: url('images/bg-pattern-quotation.svg');
         background-repeat: no-repeat;
@@ -156,7 +155,7 @@ body {
         min-height: 225px;
     }
 
-    .card:nth-child(4) {
+    .card:nth-child(4),.card:first-child {
         min-height: 380px;
     }
 
